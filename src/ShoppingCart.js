@@ -13,7 +13,7 @@ class ShoppingCart extends Component {
                                     <tr>
                                         <th scope="col">#</th>
                                         <th scope="col">Item</th>
-                                        <th scope="col">Country</th>
+                                        <th scope="col">Product</th>
                                         <th scope="col">Quantity</th>
                                         <th scope="col">Unit Price</th>
                                         <th scope="col">Sub-Total</th>
