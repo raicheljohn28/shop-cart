@@ -1,6 +1,6 @@
 # Melon-Cauli
 
-This is a simple eCommerce store plus shopping cart interface built by taking advantage of the modular nature of ReactJS. The app displays a collection of shirts from different national soccer teams, each of them embedded in a Bootstrap card and contained in a <Product /> React component. Each product card has the functionality of adding (+) or decreasing (-) the number of shirts and features a button to add them to the shopping cart. For a better user experience, the "Add To Cart" button text changes to "Added" for a few seconds, to reassure users that their selection has been in fact added to the shopping cart.
+This is a simple eCommerce store plus shopping cart interface built by taking advantage of the modular nature of ReactJS. The app displays a collection of items, each of them embedded in a Bootstrap card and contained in a <Product /> React component. Each product card has the functionality of adding (+) or decreasing (-) the number of shirts and features a button to add them to the shopping cart. For a better user experience, the "Add To Cart" button text changes to "Added" for a few seconds, to reassure users that their selection has been in fact added to the shopping cart.
 
 The site uses a <Header /> component which is basically a Bootstrap element with a navbar class that remains fixed and visible at all times. A shopping cart icon is located to the right of the header, included in a <Counter /> component that also displays the number of items in the shopping cart and the total $ value of the contents.
 
@@ -10,6 +10,6 @@ The shopping cart itself contains one or several <ShoppingCartItems />, each dis
 
 Finally, the shopping cart features a "Proceed to Checkout button". When you press it the page and the shopping cart are refreshed. In a full-fledged application it would take you to a page where you can pay for your purchase, but since this project deals only with the front-end, resetting the page is a good default action.
 
-The data for the different shirts is stored in a JavaScript file containing an array of objects: each shirt is an object with properties such as team name, price, image and initial quantity (set to 0 by default).
+The data for the different item is stored in a JavaScript file containing an array of objects: each item is an object with properties such as team name, price, image and initial quantity (set to 0 by default).
 
 ES6 JavaScript classes have been used in this project.
